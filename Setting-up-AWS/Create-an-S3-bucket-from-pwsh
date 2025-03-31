@@ -1,0 +1,23 @@
+# Resources
+# https://docs.aws.amazon.com/powershell/latest/userguide/pstools-getting-set-up-linux-mac.html
+# Modules Gallery
+# https://www.powershellgallery.com/packages?q=aws
+
+# Go to cloudshell via the search bar, typing in cloudshell
+# in the command line access Powershell via
+
+pwsh
+
+# Install the modularized AWS tools using the AWs tools installers
+
+Install-Module -Name AWS.Tools.Installer
+
+# Install the module for each service you want
+
+Install-AWSToolsModule AWS.Tools.EC2,AWS.Tools.S3 -CleanUp
+
+# To see where modules are installed
+
+Get-Module -ListAvailable
+
+
