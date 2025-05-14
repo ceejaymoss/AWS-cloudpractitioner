@@ -1,0 +1,20 @@
+# https://github.com/aws/aws-cdk/blob/main/README.md
+# Run in terminal
+npm i -g aws-cdk
+
+#
+# Initialize the project
+mkdir hello-cdk
+#
+cd hello-cdk
+#
+cdk init sample-app --language=typescript
+#
+
+#
+cdk deploy
+#
+
+#
+cdk destroy
+#

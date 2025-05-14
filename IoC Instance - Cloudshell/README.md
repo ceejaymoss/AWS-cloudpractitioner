@@ -1,0 +1,1 @@
+aws cloudformation create-stack \ --stack-name MyNewStack2 \ --template-body file://template.yaml 
